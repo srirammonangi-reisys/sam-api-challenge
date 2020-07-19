@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sam-api-challenge"
+    }
+  },
+  "defaultProject": "sam-api-challenge",
+  "cli": {
+    "analytics": false
+  }
 }
