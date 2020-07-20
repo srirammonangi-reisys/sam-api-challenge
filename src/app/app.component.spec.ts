@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'sam-api-challenge'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sam-api-challenge');
+    expect(app.profileForm.get('pscValue')[0]).toEqual('sam-api-challenge');
   });
 
   it('should render title', () => {
